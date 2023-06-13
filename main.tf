@@ -6,8 +6,8 @@ terraform {
   }
 }
 
-module "main" {
-  source = "./main"
+module "hello" {
+  source = "./hello"
 }
 
 import {
