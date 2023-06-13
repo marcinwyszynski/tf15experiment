@@ -6,6 +6,8 @@ terraform {
   }
 }
 
+provider "spacelift" {}
+
 module "hello" {
   source = "./hello"
 }
