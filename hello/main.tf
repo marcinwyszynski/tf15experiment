@@ -5,3 +5,9 @@ terraform {
     }
   }
 }
+
+
+import {
+  id = "testing-spacelift"
+  to = spacelift_stack.hello
+}
