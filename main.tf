@@ -9,8 +9,3 @@ terraform {
 module "hello" {
   source = "./hello"
 }
-
-import {
-  id = "testing-spacelift"
-  to = main.spacelift_stack.hello
-}
